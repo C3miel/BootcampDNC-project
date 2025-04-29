@@ -1,6 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 20%, rgba(12, 112, 242, 0) 25%), #303030;
+    background-repeat: no-repeat
 }
 
 #principal{
@@ -42,6 +45,7 @@ body{
     font-weight: 600;
 
     box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25) ;
+    cursor: pointer;
 }
 
 #principal div a:hover{
